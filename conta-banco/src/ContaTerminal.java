@@ -14,7 +14,7 @@ public class ContaTerminal {
 		int Numero = 3104;
 		String Agencia;
 		String NomeCliente;
-		Float Saldo = 1500f;
+		Double Saldo = 1500.00;
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -23,7 +23,7 @@ public class ContaTerminal {
 		System.out.println("Usuário: ");
 		NomeCliente = sc.next();
 		System.out.println();
-		System.out.printf("Olá " +NomeCliente+ ", Obrigado por criar uma conta em nosso banco, sua agência é "+Agencia+ ", conta " +Numero+ " e seu saldo " +Saldo+ " Já está disponível.");
+		System.out.println("Olá " +NomeCliente+ ", Obrigado por criar uma conta em nosso banco, sua agência é "+Agencia+ ", conta " +Numero+ " e seu saldo " +Saldo+ " Já está disponível.");
 		
 		
 		
